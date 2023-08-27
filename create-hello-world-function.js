@@ -3,3 +3,5 @@ const createHelloWorld = function(){
         return 'Hello World';
     }
 }
+var f = createHelloWorld();
+console.log(f());
